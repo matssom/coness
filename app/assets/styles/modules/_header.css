@@ -1,0 +1,7 @@
+.header {
+	background-color: rgba($white, .9);
+	box-shadow: inset 0px 10px 10px -10px $black;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+}

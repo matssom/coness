@@ -1,0 +1,18 @@
+.generic-text-content {
+	font-size: calc($fontSize * 1.5);
+	line-height: 2;
+	font-family: 'open sans';
+	font-weight: 300;
+
+	&--small {
+		font-size: calc($fontSize * 1.1);
+		line-height: 2;
+		font-family: 'open sans';
+		font-weight: 300;
+	}
+
+	h2 {
+		margin: 0;
+		line-height: 1.1;
+	}
+}

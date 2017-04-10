@@ -1,0 +1,27 @@
+.nav {
+	margin: 0;
+
+	&__link {
+		display: inline-block;
+		height: $base;
+
+		&:hover > &__item {
+			transform: translateY(calc($base / -10));
+		}
+
+		&__item {
+			display: inline-block;
+			padding: 0 calc($base / 5);
+			font-size: calc($fontSize * 1.1);
+			font-family: $headerFont;
+			font-weight: 600;
+			transition: all .2s ease-out;
+			color: $gray;
+			line-height: $base;
+		
+			&--highlight {
+				color: $darkGreen;
+			}
+		}
+	}
+}

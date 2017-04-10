@@ -1,0 +1,7 @@
+.logo {
+	height: calc($base / 2);
+
+	&__image {
+		height: inherit;
+	}
+}

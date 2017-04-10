@@ -1,0 +1,14 @@
+.section-subtitle {
+	text-align: center;
+	font-size: calc($fontSize * 2.6);
+	margin-bottom: 100px;
+	font-weight: 500;
+	font-family: $textFont;
+	&--no-margin {
+		margin: initial;
+	}
+
+	&--small {
+		font-size: calc($fontSize * 1.8);
+	}
+}

@@ -1,0 +1,43 @@
+/*colors*/
+
+$lightLight: #ececec;
+$light: #aaaeaf;
+$darkLight: #bdc3c7;
+
+$gray: #353535;
+$darkGray: #2D2D2D;
+
+$turquoise: #1abc9c;
+$darkTurquoise: #16a085;
+
+$green: #2ecc71;
+$darkGreen: #27ae60;
+
+$blue: #3498db;
+$darkBlue: #2980b9;
+
+$purple: #9b59b6;
+$darkPurple: #8e44ad;
+
+$lightGrayBlue: #95a5a6;
+$grayBlue: #34495e;
+$darkGrayBlue: #2c3e50;
+
+$yellow: #f1c40f;
+$darkYellow: #f39c12;
+
+$orange: #e67e22;
+$darkOrange: #d35400;
+
+$red: #e74c3c;
+$darkRed: #c0392b;
+
+$white: #fff;
+$black: #000;
+
+/*defaults*/
+
+$base: 80px;
+$fontSize: 1rem;
+$headerFont: 'Dosis', sans-serif;
+$textFont: 'Open-Sans', sans-serif;

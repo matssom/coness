@@ -1,0 +1,21 @@
+.section-title {
+	text-align: center;
+	font-size: calc($fontSize * 4);
+	margin-bottom: 100px;
+
+	&--no-margin {
+		margin: initial;
+	}
+
+	&--full-margin {
+		margin: 100px 0;
+	}
+
+	&--small {
+		font-size: calc($fontSize * 2.6);
+	}
+
+	&--white {
+		color: white;
+	}
+}

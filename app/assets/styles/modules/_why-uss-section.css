@@ -1,0 +1,21 @@
+.why-uss-section {
+	background-color: rgba($green, .5);
+	
+	&__feature {
+		flex-basis: 30%;
+		min-width: 300px;
+		background-color: rgba($darkGray, .5);
+		padding: calc($base * .30);
+		border-radius: 3px;
+		margin-bottom: $base;
+
+		&__title {
+			color: white;
+			text-align: center;
+		}
+
+		&__text {
+			color: white;
+		}
+	}
+}

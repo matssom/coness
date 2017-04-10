@@ -1,0 +1,14 @@
+.features-section {
+	
+	&__item {
+		flex: 1;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+
+		&__img {
+			flex-grow: 1;
+			object-fit: cover;
+		}
+	}
+}
