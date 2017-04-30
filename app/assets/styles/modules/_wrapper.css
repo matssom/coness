@@ -1,14 +1,11 @@
 .wrapper {
-	max-width: calc($base * 15);
+	max-width: 1250px;
 	margin: 0 auto;
-	padding: 0 calc($base * 0.15);
+	padding: 0 18px;
 
-
-}
-
-.wrapper--small {
-		max-width: calc($base * 7);
+	&--small {
+		max-width: 1070px;
 		margin: 0 auto;
-		padding: 0 calc($base * 0.25);
-		position: relative;
+	padding: 0 18px;
 	}
+}

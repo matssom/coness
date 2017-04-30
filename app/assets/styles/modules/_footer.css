@@ -1,4 +1,30 @@
 .footer {
 	background-color: $darkGray;
 	display: block;
+	line-height: calc($base * .3);
+
+	&__column {
+		flex-basis: 30%;
+		margin-bottom: calc($base / 2);
+
+		&__text {
+			color: white;
+			font-weight: 300;
+			font-family: $textFont;
+		}
+
+		/*device types*/
+
+		@mixin atMedium {
+			margin-bottom: 0;
+		}
+
+		&--center {
+			text-align: center;
+		}
+
+		&--right {
+			text-align: right;
+		}
+	}
 }

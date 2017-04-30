@@ -1,13 +1,58 @@
 .flex {
-	display: flex;
-	justify-content: space-between;
+	display: block;
+
+	/*Device types*/
+
+	@mixin atMedium {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	/*modifiers*/
+
+	&--always-flex {
+		display: flex;
+		justify-content: space-between;
+	}
 
 	&--column {
 		flex-direction: column;
 	}
 
+	&--not-medium {
+		
+		@mixin atMedium {
+			display: block;
+		}
+
+		@mixin atLarge {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	&--mobile-direction-column {
+		flex-direction: column;
+
+		@mixin atMedium {
+			flex-direction: row;
+		}
+	}
+
+	&--mobile-switch {
+		order: -1;
+
+		@mixin atMedium {
+			order: 0;
+		}
+	}
+
 	&--center {
 		align-items: center;
+	}
+
+	&--start {
+		align-items: flex-start;
 	}
 
 	&--end {

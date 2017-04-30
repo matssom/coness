@@ -1,0 +1,8 @@
+.link {
+	font-style: italic;
+	color: #6D6D6D;
+
+	&--underline {
+		text-decoration: underline;
+	}
+}

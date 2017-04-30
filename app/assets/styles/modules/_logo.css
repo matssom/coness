@@ -1,7 +1,14 @@
 .logo {
-	height: calc($base / 2);
+	height: $base;
+	position: relative;
+
 
 	&__image {
-		height: inherit;
+		display: block;
+		max-height: 32px;
+		position: absolute;
+		top: 50%;
+		left: 40px;
+		transform: translateY(-50%);
 	}
 }

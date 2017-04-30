@@ -1,0 +1,55 @@
+.social-links {
+	min-width: 300px;
+	
+	&__item {
+		padding: calc($base / 10);
+		color: white;
+		font-size: calc($fontSize * 2);
+		transition: all .2s ease-out;
+
+		&:hover {
+			transform: scale(1.4);
+			cursor: pointer;
+		}
+	}
+
+	@mixin atMedium{
+		text-align: center;
+	}
+
+	&__yt {
+		&:hover {
+			color: #cd201f;
+		}
+	}
+
+	&__fb {
+		&:hover {
+			color: #3B5998;
+		}
+	}
+
+	&__in {
+		&:hover {
+			color: #0077b5;
+		}
+	}
+
+	&__ig {
+		&:hover {
+			color: #c13584;
+		}
+	}
+
+	&__tw {
+		&:hover {
+			color: #1da1f2;
+		}
+	}
+
+	&__gp {
+		&:hover {
+			color: #dd4b39;
+		}
+	}
+}

@@ -1,27 +1,25 @@
 .nav {
 	margin: 0;
+	text-align: right;
+	margin-right: 15px;
 
 	&__link {
 		display: inline-block;
 		height: $base;
 
 		&:hover > &__item {
-			transform: translateY(calc($base / -10));
+			
 		}
 
 		&__item {
 			display: inline-block;
-			padding: 0 calc($base / 5);
-			font-size: calc($fontSize * 1.1);
+			padding: 0 25px;
+			font-size: 0.75rem;
 			font-family: $headerFont;
-			font-weight: 600;
+			font-weight: 400;
 			transition: all .2s ease-out;
-			color: $gray;
+			color: #9ca4ab;
 			line-height: $base;
-		
-			&--highlight {
-				color: $darkGreen;
-			}
 		}
 	}
 }

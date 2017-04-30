@@ -1,0 +1,52 @@
+.tripple-column {
+	flex-wrap: wrap;
+
+	&__panel {
+		flex-basis: 33.2%;
+		background-color: #F7F7F7;
+		padding: 40px;
+		margin-top: 2px;
+	}
+
+	&--center {
+		text-align: center;
+	}
+
+	&__image {
+		border-radius: 50%;
+		max-width: 150px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+
+	/*Portfolio*/
+
+	&__portfolio {
+
+
+		&__panel {
+			padding-bottom: 105px;
+
+			&__image {
+				border: 1px solid gray;
+				width: 102px;
+			}
+
+			&__text {
+				margin-left: 28px;
+				font-size: 0.75rem;
+				font-family: 'times-new-roman';
+				letter-spacing: 1px;
+
+				&__paragraph {
+					margin: .5em 0;
+					color: #6D6D6D;
+				}
+
+				&__stilling {
+					font-size: .70rem;
+				}
+			}
+		}
+	}
+}

@@ -1,7 +1,16 @@
 .header {
-	background-color: rgba($white, .9);
-	box-shadow: inset 0px 10px 10px -10px $black;
-	position: fixed;
-	z-index: 1000;
+	background-color: #4E4E4E;
 	width: 100%;
+	z-index: 1000;
+	box-shadow: 0px 2px 5px -1px black;
+
+	&__nav {
+		display: none;
+
+		/*devide types*/
+
+		@mixin atMedium {
+			display: block;
+		}
+	}
 }

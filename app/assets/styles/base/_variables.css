@@ -37,7 +37,7 @@ $black: #000;
 
 /*defaults*/
 
-$base: 80px;
+$base: 82px;
 $fontSize: 1rem;
-$headerFont: 'Dosis', sans-serif;
-$textFont: 'Open-Sans', sans-serif;
+$headerFont: 'Open Sans', sans-serif;
+$textFont: 'Open Sans', sans-serif;

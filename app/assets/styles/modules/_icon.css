@@ -1,0 +1,11 @@
+.icons {
+	color: $gray;
+
+	&--white {
+		color: white;
+	}
+
+	&--r-margin {
+		margin-right: 5px;
+	}
+}

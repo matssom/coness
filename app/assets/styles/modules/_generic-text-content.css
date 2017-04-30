@@ -1,6 +1,6 @@
 .generic-text-content {
-	font-size: calc($fontSize * 1.5);
-	line-height: 2;
+	font-size: calc($fontSize * 1);
+	line-height: 1.8;
 	font-family: 'open sans';
 	font-weight: 300;
 
@@ -14,5 +14,12 @@
 	h2 {
 		margin: 0;
 		line-height: 1.1;
+	}
+
+	/*device type*/
+
+	@mixin atMedium {
+		font-size: calc($fontSize * 1.2);
+		line-height: 2;
 	}
 }

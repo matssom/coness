@@ -1,0 +1,7 @@
+.icon-link {
+	margin-bottom: 10px;
+
+	&__icon-column {
+		width: 20px;
+	}
+}

@@ -1,7 +1,23 @@
 .section-title {
 	text-align: center;
-	font-size: calc($fontSize * 4);
+	font-size: calc($fontSize * 2);
 	margin-bottom: 100px;
+
+	/*Device types*/
+
+	@mixin atSmall {
+		font-size: calc($fontSize * 3);
+	}
+
+	@mixin atMedium {
+		font-size: calc($fontSize * 4);
+	}
+
+	@mixin atLarge {
+		font-size: calc($fontSize * 5);
+	}
+
+	/*modifiers*/
 
 	&--no-margin {
 		margin: initial;
@@ -12,7 +28,21 @@
 	}
 
 	&--small {
-		font-size: calc($fontSize * 2.6);
+		font-size: calc($fontSize * 1.4);
+
+		/*Device types*/
+
+		@mixin atSmall {
+			font-size: calc($fontSize * 1.8);
+		}
+
+		@mixin atMedium {
+			font-size: calc($fontSize * 2.4);
+		}
+
+		@mixin atLarge {
+			font-size: calc($fontSize * 2.6);
+		}
 	}
 
 	&--white {

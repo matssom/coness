@@ -4,7 +4,7 @@ module.exports = {
 		Vendor: "./app/assets/scripts/Vendor.js"
 	},
 	output: {
-		path: "/OneDrive/Dokumenter/Jobb/Treebranch/Project/treebranch/app/temp/scripts",	
+		path: "/OneDrive/Dokumenter/Jobb/Coness/Prosjekt/coness/app/temp/scripts",	
 		filename: "[name].js"
 	},
 	module: {
