@@ -491,35 +491,35 @@ a {
 
 @font-face {
 	font-family: 'MyriadWebPro';
-	src: url(../images/fonts/MyriadWebPro.ttf);
+	src: url(../../../assets/images/fonts/MyriadWebPro.ttf);
 }
 
 /*Minion Pro Semibold*/
 
 @font-face {
 	font-family: 'MinionProSemibold';
-	src: url(../images/fonts/MinionProSemibold.otf);
+	src: url(../../../assets/images/fonts/MinionProSemibold.otf);
 }
 
 /*Minion Pro*/
 
 @font-face {
 	font-family: 'MinionPro';
-	src: url(../images/fonts/MinionPro.otf);
+	src: url(../../../assets/images/fonts/MinionPro.otf);
 }
 
 /*Minion Pro Regular*/
 
 @font-face {
 	font-family: 'MinionProRegular';
-	src: url(../images/fonts/MinionProRegular.otf);
+	src: url(../../../assets/images/fonts/MinionProRegular.otf);
 }
 
 /*Minion Pro Bold*/
 
 @font-face {
 	font-family: 'MinionProBold';
-	src: url(../images/fonts/MinionProBold.otf);
+	src: url(../../../assets/images/fonts/MinionProBold.otf);
 }
 
 /* Do not edit _sprite.css directly!!! It is auto-generated */
