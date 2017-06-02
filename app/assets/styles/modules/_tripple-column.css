@@ -3,9 +3,38 @@
 
 	&__panel {
 		flex-basis: 33.2%;
-		background-color: #F7F7F7;
+		background-color: #E9E9E9;
 		padding: 40px;
 		margin-top: 2px;
+		color: #4C4C4C;
+
+		@mixin atLarge {
+			background-color: #F7F7F7;
+		}
+
+		&__heading {
+			font-size: 1.25rem;
+			margin-bottom: 30px;
+			margin-top: 0px;
+			font-family: 'MinionProSemibold';
+			font-weight: 400;
+		}
+
+		&__capital {
+			font-size: 1.25rem;
+			margin-bottom: 30px;
+			margin-top: 0px;
+			font-family: 'MinionProSemibold';
+			font-weight: 400;
+			margin-top: 30px;
+			margin-bottom: 0px;
+		}
+
+		&__content {
+			font-size: 0.9375rem;
+			color: #4A494A;
+			font-family: 'MinionPro';
+		}
 	}
 
 	&--center {
@@ -25,26 +54,51 @@
 
 
 		&__panel {
-			padding-bottom: 105px;
+			padding-bottom: 10px;
+			flex-basis: 48%;
+
+			@mixin atMedium {
+				padding-bottom: 105px;
+			}
+
+			@mixin atLarge {
+				flex-basis: 30%;
+				
+			}
 
 			&__image {
-				border: 1px solid gray;
-				width: 102px;
+				border: 1px solid #7FCFD9;
+				min-width: 102px;
+				max-width: 102px;
 			}
 
 			&__text {
 				margin-left: 28px;
 				font-size: 0.75rem;
-				font-family: 'times-new-roman';
-				letter-spacing: 1px;
+				font-family: 'MinionProSemibold';
+				/*letter-spacing: 1px;*/
+				flex-grow: 1;
+
+				&__info {
+					margin: .5em 0;
+					color: #4a494a;
+					font-size: 0.9375rem;
+					font-family: 'MinionProRegular';
+
+					&:first-child {
+						margin-top: 0em;
+					}
+				}
 
 				&__paragraph {
 					margin: .5em 0;
 					color: #6D6D6D;
 				}
 
-				&__stilling {
-					font-size: .70rem;
+				&__position {
+					font-size: .75rem;
+					font-family: 'MinionProBold';
+					color: #4C4C4C;
 				}
 			}
 		}

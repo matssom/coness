@@ -487,6 +487,41 @@ a {
 	color: #353535;
 }
 
+/*Myriad Pro*/
+
+@font-face {
+	font-family: 'MyriadWebPro';
+	src: url(../../../assets/images/fonts/MyriadWebPro.ttf);
+}
+
+/*Minion Pro Semibold*/
+
+@font-face {
+	font-family: 'MinionProSemibold';
+	src: url(../../../assets/images/fonts/MinionProSemibold.otf);
+}
+
+/*Minion Pro*/
+
+@font-face {
+	font-family: 'MinionPro';
+	src: url(../../../assets/images/fonts/MinionPro.otf);
+}
+
+/*Minion Pro Regular*/
+
+@font-face {
+	font-family: 'MinionProRegular';
+	src: url(../../../assets/images/fonts/MinionProRegular.otf);
+}
+
+/*Minion Pro Bold*/
+
+@font-face {
+	font-family: 'MinionProBold';
+	src: url(../../../assets/images/fonts/MinionProBold.otf);
+}
+
 /* Do not edit _sprite.css directly!!! It is auto-generated */
 
 .icon {
@@ -636,10 +671,35 @@ a {
 	padding: 0 18px;
 }
 
+.wrapper--no-medium-margin {
+  padding: 0;
+}
+
+@media (min-width: 1250px) {
+
+  .wrapper--no-medium-margin {
+    padding: 0 18px;
+  }
+}
+
 .wrapper--small {
-  max-width: 1070px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 0 18px;
+}
+
+@media (min-width: 800px) {
+
+  .wrapper--small {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1250px) {
+
+  .wrapper--small {
+    max-width: 1070px;
+  }
 }
 
 .logo {
@@ -700,7 +760,7 @@ a {
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1250px) {
 
   .flex--not-medium {
     display: -webkit-box;
@@ -802,13 +862,14 @@ a {
 .nav__link__item {
   display: inline-block;
   padding: 0 25px;
-  font-size: 0.75rem;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8125rem;
+  font-family: 'MyriadWebPro';
   font-weight: 400;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
   color: #9ca4ab;
   line-height: 82px;
+  color: #bdeff0;
 }
 
 .page-section {
@@ -825,6 +886,18 @@ a {
 
 .page-section--no-bottom {
   margin-bottom: 0;
+}
+
+.page-section--small-small-top {
+  margin-top: 10px;
+  margin-bottom: 170px;
+}
+
+@media (min-width: 800px) {
+
+  .page-section--small-small-top {
+    margin: 70px 0;
+  }
 }
 
 .page-section--center {
@@ -853,7 +926,7 @@ a {
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1250px) {
 
   .section-title {
     font-size: calc(1rem * 5);
@@ -890,7 +963,7 @@ a {
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1250px) {
 
   .section-title--small {
     font-size: calc(1rem * 2.6);
@@ -954,7 +1027,7 @@ a {
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1250px) {
 
   .section-subtitle {
     font-size: calc(1rem * 2.5);
@@ -987,7 +1060,7 @@ a {
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1250px) {
 
   .section-subtitle--small {
     font-size: calc(1rem * 1.8);
@@ -1069,7 +1142,7 @@ a {
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1250px) {
 
   .btn {
     font-size: calc(1rem * 1.6);
@@ -1087,12 +1160,13 @@ a {
 }
 
 .link {
-	font-style: italic;
-	color: #6D6D6D;
+	/*font-style: italic;*/
+	/*color: #6D6D6D;*/
+	text-decoration: none;
 }
 
-.link--underline {
-  text-decoration: underline;
+.link--white {
+  color: white;
 }
 
 .icons {
@@ -1172,9 +1246,41 @@ a {
 .tripple-column__panel {
   -ms-flex-preferred-size: 33.2%;
       flex-basis: 33.2%;
-  background-color: #F7F7F7;
+  background-color: #E9E9E9;
   padding: 40px;
   margin-top: 2px;
+  color: #4C4C4C;
+}
+
+@media (min-width: 1250px) {
+
+  .tripple-column__panel {
+    background-color: #F7F7F7;
+  }
+}
+
+.tripple-column__panel__heading {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  font-family: 'MinionProSemibold';
+  font-weight: 400;
+}
+
+.tripple-column__panel__capital {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  font-family: 'MinionProSemibold';
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.tripple-column__panel__content {
+  font-size: 0.9375rem;
+  color: #4A494A;
+  font-family: 'MinionPro';
 }
 
 .tripple-column--center {
@@ -1191,19 +1297,50 @@ a {
 /*Portfolio*/
 
 .tripple-column__portfolio__panel {
-  padding-bottom: 105px;
+  padding-bottom: 10px;
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+}
+
+@media (min-width: 800px) {
+
+  .tripple-column__portfolio__panel {
+    padding-bottom: 105px;
+  }
+}
+
+@media (min-width: 1250px) {
+
+  .tripple-column__portfolio__panel {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
 }
 
 .tripple-column__portfolio__panel__image {
-  border: 1px solid gray;
-  width: 102px;
+  border: 1px solid #7FCFD9;
+  min-width: 102px;
+  max-width: 102px;
 }
 
 .tripple-column__portfolio__panel__text {
   margin-left: 28px;
   font-size: 0.75rem;
-  font-family: 'times-new-roman';
-  letter-spacing: 1px;
+  font-family: 'MinionProSemibold';/*letter-spacing: 1px;*/
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.tripple-column__portfolio__panel__text__info {
+  margin: .5em 0;
+  color: #4a494a;
+  font-size: 0.9375rem;
+  font-family: 'MinionProRegular';
+}
+
+.tripple-column__portfolio__panel__text__info:first-child {
+  margin-top: 0em;
 }
 
 .tripple-column__portfolio__panel__text__paragraph {
@@ -1211,6 +1348,54 @@ a {
   color: #6D6D6D;
 }
 
-.tripple-column__portfolio__panel__text__stilling {
-  font-size: .70rem;
+.tripple-column__portfolio__panel__text__position {
+  font-size: .75rem;
+  font-family: 'MinionProBold';
+  color: #4C4C4C;
+}
+
+.map {
+	position: relative;
+}
+
+.map__image {
+}
+
+.map__text {
+  background-color: rgba(0,0,0, .8);
+  padding: 0;
+  position: absolute;
+  max-width: 1000px;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 800px) {
+
+  .map__text {
+    padding: 10px;
+  }
+}
+
+.map__text__paragraph {
+  color: white;
+  text-align: center;
+  font-family: 'MinionProRegular';
+  font-size: 1rem;
+  margin: 8px;
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-width: 200px;
 }

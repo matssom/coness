@@ -20,3 +20,33 @@ img {
 a {
 	color: $gray;
 }
+
+/*Myriad Pro*/
+@font-face {
+	font-family: 'MyriadWebPro';
+	src: url(../../../assets/images/fonts/MyriadWebPro.ttf);
+}
+
+/*Minion Pro Semibold*/
+@font-face {
+	font-family: 'MinionProSemibold';
+	src: url(../../../assets/images/fonts/MinionProSemibold.otf);
+}
+
+/*Minion Pro*/
+@font-face {
+	font-family: 'MinionPro';
+	src: url(../../../assets/images/fonts/MinionPro.otf);
+}
+
+/*Minion Pro Regular*/
+@font-face {
+	font-family: 'MinionProRegular';
+	src: url(../../../assets/images/fonts/MinionProRegular.otf);
+}
+
+/*Minion Pro Bold*/
+@font-face {
+	font-family: 'MinionProBold';
+	src: url(../../../assets/images/fonts/MinionProBold.otf);
+}

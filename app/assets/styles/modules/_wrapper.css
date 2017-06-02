@@ -3,9 +3,25 @@
 	margin: 0 auto;
 	padding: 0 18px;
 
+	&--no-medium-margin {
+		padding: 0;
+
+		@mixin atLarge {
+			padding: 0 18px;
+		}
+	}
+
 	&--small {
-		max-width: 1070px;
+		max-width: 400px;
 		margin: 0 auto;
-	padding: 0 18px;
+		padding: 0 18px;
+
+		@mixin atMedium {
+			max-width: 800px;
+		}
+
+		@mixin atLarge {
+			max-width: 1070px;
+		}
 	}
 }

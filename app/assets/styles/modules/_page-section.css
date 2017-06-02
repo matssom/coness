@@ -12,6 +12,15 @@
 	&--no-bottom {
 		margin-bottom: 0;
 	}
+
+	&--small-small-top {
+		margin-top: 10px;
+		margin-bottom: 170px;
+
+		@mixin atMedium {
+			margin: 70px 0;
+		}
+	}
 }
 
 .page-section--center {
