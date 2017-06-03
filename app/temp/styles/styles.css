@@ -491,35 +491,42 @@ a {
 
 @font-face {
 	font-family: 'MyriadWebPro';
-	src: url(../images/fonts/MyriadWebPro.ttf);
+	src: url(../../../assets/images/fonts/MyriadWebPro.ttf);
 }
 
 /*Minion Pro Semibold*/
 
 @font-face {
 	font-family: 'MinionProSemibold';
-	src: url(../images/fonts/MinionProSemibold.otf);
+	src: url(../../../assets/images/fonts/MinionProSemibold.otf);
 }
 
 /*Minion Pro*/
 
 @font-face {
 	font-family: 'MinionPro';
-	src: url(../images/fonts/MinionPro.otf);
+	src: url(../../../assets/images/fonts/MinionPro.otf);
 }
 
 /*Minion Pro Regular*/
 
 @font-face {
 	font-family: 'MinionProRegular';
-	src: url(../images/fonts/MinionProRegular.otf);
+	src: url(../../../assets/images/fonts/MinionProRegular.otf);
 }
 
 /*Minion Pro Bold*/
 
 @font-face {
 	font-family: 'MinionProBold';
-	src: url(../images/fonts/MinionProBold.otf);
+	src: url(../../../assets/images/fonts/MinionProBold.otf);
+}
+
+/*Minion Pro Medium*/
+
+@font-face {
+	font-family: 'MinionProMedium';
+	src: url(../../../assets/images/fonts/MinionProMedium.otf);
 }
 
 /* Do not edit _sprite.css directly!!! It is auto-generated */
@@ -709,7 +716,7 @@ a {
 
 .logo__image {
   display: block;
-  max-height: 32px;
+  max-height: 92px;
   position: absolute;
   top: 50%;
   left: 40px;
@@ -1247,7 +1254,7 @@ a {
   -ms-flex-preferred-size: 33.2%;
       flex-basis: 33.2%;
   background-color: #E9E9E9;
-  padding: 40px;
+  padding: 40px 10px;
   margin-top: 2px;
   color: #4C4C4C;
 }
@@ -1256,6 +1263,7 @@ a {
 
   .tripple-column__panel {
     background-color: #F7F7F7;
+    padding: 40px;
   }
 }
 
@@ -1398,4 +1406,143 @@ a {
   margin-top: 50px;
   margin-bottom: 50px;
   min-width: 200px;
+}
+
+.banner {
+	max-height: 200px;
+	position: relative;
+}
+
+@media (min-width: 800px) {
+
+  .banner {
+    max-height: 350px;
+  }
+}
+
+@media (min-width: 1250px) {
+
+  .banner {
+    max-height: 450px;
+  }
+}
+
+.banner__heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 18px;
+  text-align: center;
+  width: 85%;
+}
+
+@media (min-width: 800px) {
+
+  .banner__heading {
+    max-width: 662px;
+    text-align: left;
+    left: 82px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 1250px) {
+
+  .banner__heading {
+    max-width: 872px;
+    text-align: left;
+  }
+}
+
+.banner__heading__text {
+  font-family: 'MinionProMedium';
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0em;
+  color: #ffffff;
+}
+
+@media (min-width: 800px) {
+
+  .banner__heading__text {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1250px) {
+
+  .banner__heading__text {
+    font-size: 4rem;
+  }
+}
+
+/*width: 100%;
+    	height: 100%;
+    	background: url(../../assets/images/Forside_abstrakt.jpg) no-repeat center;
+    	background-size: cover;
+    	height: 200px;
+
+    	@mixin atMedium {
+			height: 350px;
+		}
+
+		@mixin atLarge {
+			height: 420px;
+		}*/
+
+.banner__img--1 {
+  overflow: hidden;
+  position: relative;
+  max-height: 450px;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/images/Forside_abstrakt.jpg) no-repeat center;
+  background-size: cover;
+  height: 200px;
+}
+
+@media (min-width: 800px) {
+
+  .banner__img--1 {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1250px) {
+
+  .banner__img--1 {
+    height: 450px;
+  }
+}
+
+.banner__img--2 {
+  overflow: hidden;
+  position: relative;
+  max-height: 450px;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/images/Forside_coness.jpg) no-repeat center;
+  background-size: cover;
+  height: 200px;
+}
+
+@media (min-width: 800px) {
+
+  .banner__img--2 {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1250px) {
+
+  .banner__img--2 {
+    height: 450px;
+  }
 }

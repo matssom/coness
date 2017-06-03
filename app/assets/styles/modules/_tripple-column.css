@@ -4,12 +4,13 @@
 	&__panel {
 		flex-basis: 33.2%;
 		background-color: #E9E9E9;
-		padding: 40px;
+		padding: 40px 10px;
 		margin-top: 2px;
 		color: #4C4C4C;
 
 		@mixin atLarge {
 			background-color: #F7F7F7;
+			padding: 40px;
 		}
 
 		&__heading {
