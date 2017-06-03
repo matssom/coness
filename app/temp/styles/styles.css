@@ -491,42 +491,42 @@ a {
 
 @font-face {
 	font-family: 'MyriadWebPro';
-	src: url(../../../assets/images/fonts/MyriadWebPro.ttf);
+	src: url(../images/fonts/MyriadWebPro.ttf);
 }
 
 /*Minion Pro Semibold*/
 
 @font-face {
 	font-family: 'MinionProSemibold';
-	src: url(../../../assets/images/fonts/MinionProSemibold.otf);
+	src: url(../images/fonts/MinionProSemibold.otf);
 }
 
 /*Minion Pro*/
 
 @font-face {
 	font-family: 'MinionPro';
-	src: url(../../../assets/images/fonts/MinionPro.otf);
+	src: url(../images/fonts/MinionPro.otf);
 }
 
 /*Minion Pro Regular*/
 
 @font-face {
 	font-family: 'MinionProRegular';
-	src: url(../../../assets/images/fonts/MinionProRegular.otf);
+	src: url(../images/fonts/MinionProRegular.otf);
 }
 
 /*Minion Pro Bold*/
 
 @font-face {
 	font-family: 'MinionProBold';
-	src: url(../../../assets/images/fonts/MinionProBold.otf);
+	src: url(../images/fonts/MinionProBold.otf);
 }
 
 /*Minion Pro Medium*/
 
 @font-face {
 	font-family: 'MinionProMedium';
-	src: url(../../../assets/images/fonts/MinionProMedium.otf);
+	src: url(../images/fonts/MinionProMedium.otf);
 }
 
 /* Do not edit _sprite.css directly!!! It is auto-generated */
@@ -1501,7 +1501,7 @@ a {
       flex-basis: 40%;
   width: 100%;
   height: 100%;
-  background: url(../../assets/images/Forside_abstrakt.jpg) no-repeat center;
+  background: url(../images/Forside_abstrakt.jpg) no-repeat center;
   background-size: cover;
   height: 200px;
 }
@@ -1528,7 +1528,7 @@ a {
       flex-basis: 60%;
   width: 100%;
   height: 100%;
-  background: url(../../assets/images/Forside_coness.jpg) no-repeat center;
+  background: url(../images/Forside_coness.jpg) no-repeat center;
   background-size: cover;
   height: 200px;
 }
