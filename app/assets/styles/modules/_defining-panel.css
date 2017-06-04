@@ -1,0 +1,29 @@
+.defining-panel {
+	background-color: #E9E9E9;
+
+	@mixin atLarge {
+		background-color: #F7F7F7;
+	}
+
+	&__panel {
+		padding: 10px;
+
+		@mixin atMedium {
+			padding: 40px;
+		}
+	}
+
+	&__heading {
+		font-family: 'MinionProSemibold';
+		font-size: 1.25rem;
+		color: #4c4c4c;
+		line-height: 26px;
+	}
+
+	&__text {
+		font-family: 'MinionProRegular';
+		font-size: 0.9375rem;
+		line-height: 20px;
+		max-width: 500px;
+	}
+}
