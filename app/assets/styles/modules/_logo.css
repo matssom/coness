@@ -8,7 +8,11 @@
 		max-height: 92px;
 		position: absolute;
 		top: 50%;
-		left: 40px;
+		left: 0px;
 		transform: translateY(-50%);
+
+		@mixin atLarge {
+			left: 40px;
+		}
 	}
 }

@@ -1,26 +1,48 @@
 .nav {
-	margin: 0;
-	text-align: right;
-	margin-right: 15px;
+	display: none;
+	position: relative; 
 
-	&__link {
-		display: inline-block;
-		height: $base;
+	&__button {
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: white;
 
-		&:hover > &__item {
-			
+		@mixin atMedium {
+			display: none;
 		}
+	}
 
-		&__item {
+	@mixin atMedium {
+		margin: 0;
+		text-align: right;
+		margin-right: 15px;
+		display: block;
+
+		&__link {
 			display: inline-block;
-			padding: 0 25px;
-			font-size: 0.8125rem;
-			font-family: 'MyriadWebPro';
-			font-weight: 400;
-			transition: all .2s ease-out;
-			color: #9ca4ab;
-			line-height: $base;
-			color: #bdeff0;
+			height: $base;
+
+			&:hover > &__item {
+				
+			}
+
+			&__item {
+				display: inline-block;
+				padding: 0 8px;
+				font-size: 0.8125rem;
+				font-family: 'MyriadWebPro';
+				font-weight: 400;
+				transition: all .2s ease-out;
+				color: #9ca4ab;
+				line-height: $base;
+				color: #bdeff0;
+
+				@mixin atLarge {
+					padding: 0 25px;
+				}
+			}
 		}
 	}
 }

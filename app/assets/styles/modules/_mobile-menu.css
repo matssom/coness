@@ -1,0 +1,36 @@
+.mobile-menu {
+	display: none;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	background-color: #4d4d4d;
+	top: 0;
+	bottom: 0;
+
+	&__nav {
+		text-align: right;
+		display: inline-block;
+		line-height: 60px;
+		font-family: 'MyriadWebPro';
+		text-decoration: none;
+		padding: 0;
+		margin-top: 40px;
+		width: 100%;
+		height: 100%;
+		list-style-type: none;
+	}
+
+	&__link {
+		text-decoration: none;
+	}
+
+	&__text {
+		border-bottom: 1px solid #788B8B;
+		color: #BDEFF0;
+		
+	}
+
+	&__offset {
+		padding-right: 50px;
+	}
+}
