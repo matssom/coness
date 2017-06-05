@@ -6,4 +6,9 @@
 	&--white {
 		color: white;
 	}
+
+	&--underline {
+		text-decoration: underline;
+		cursor: pointer;
+	}
 }

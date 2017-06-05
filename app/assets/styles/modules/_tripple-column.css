@@ -54,6 +54,9 @@
 
 	&__portfolio {
 
+		&__linkedin {
+			line-height: 30px;
+		}
 
 		&__panel {
 			padding-bottom: 10px;
@@ -82,7 +85,7 @@
 				flex-grow: 1;
 
 				&__info {
-					margin: .5em 0;
+					margin: .2em 0;
 					color: #4a494a;
 					font-size: 0.9375rem;
 					font-family: 'MinionProRegular';
@@ -90,6 +93,13 @@
 					&:first-child {
 						margin-top: 0em;
 					}
+				}
+
+				&__link {
+					font-family: 'MinionPro';
+					color: #4a494a;
+					font-size: 0.9375rem;
+					line-height: 20px;
 				}
 
 				&__paragraph {
@@ -101,6 +111,7 @@
 					font-size: .75rem;
 					font-family: 'MinionProBold';
 					color: #4C4C4C;
+					letter-spacing: 1.2px;
 				}
 			}
 		}

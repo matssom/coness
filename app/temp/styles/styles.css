@@ -491,42 +491,42 @@ a {
 
 @font-face {
 	font-family: 'MyriadWebPro';
-	src: url(../../../assets/images/fonts/MyriadWebPro.ttf);
+	src: url(../images/fonts/MyriadWebPro.ttf);
 }
 
 /*Minion Pro Semibold*/
 
 @font-face {
 	font-family: 'MinionProSemibold';
-	src: url(../../../assets/images/fonts/MinionProSemibold.otf);
+	src: url(../images/fonts/MinionProSemibold.otf);
 }
 
 /*Minion Pro*/
 
 @font-face {
 	font-family: 'MinionPro';
-	src: url(../../../assets/images/fonts/MinionPro.otf);
+	src: url(../images/fonts/MinionPro.otf);
 }
 
 /*Minion Pro Regular*/
 
 @font-face {
 	font-family: 'MinionProRegular';
-	src: url(../../../assets/images/fonts/MinionProRegular.otf);
+	src: url(../images/fonts/MinionProRegular.otf);
 }
 
 /*Minion Pro Bold*/
 
 @font-face {
 	font-family: 'MinionProBold';
-	src: url(../../../assets/images/fonts/MinionProBold.otf);
+	src: url(../images/fonts/MinionProBold.otf);
 }
 
 /*Minion Pro Medium*/
 
 @font-face {
 	font-family: 'MinionProMedium';
-	src: url(../../../assets/images/fonts/MinionProMedium.otf);
+	src: url(../images/fonts/MinionProMedium.otf);
 }
 
 /* Do not edit _sprite.css directly!!! It is auto-generated */
@@ -613,6 +613,8 @@ a {
 	z-index: 1000;
 	box-shadow: 0px 2px 5px -1px black;
 	overflow: visible;
+	position: fixed;
+	top: 0px;
 }
 
 .header__nav {
@@ -871,7 +873,6 @@ a {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: white;
 }
 
 @media (min-width: 820px) {
@@ -906,9 +907,8 @@ a {
     font-weight: 400;
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out;
-    color: #9ca4ab;
     line-height: 82px;
-    color: #bdeff0;
+    color: #788B8B;
   }
 
   @media (min-width: 1090px) {
@@ -917,6 +917,10 @@ a {
       padding: 0 25px;
     }
   }
+}
+
+.nav--active {
+  color: #bdeff0;
 }
 
 .page-section {
@@ -945,6 +949,10 @@ a {
   .page-section--small-small-top {
     margin: 70px 0;
   }
+}
+
+.page-section--large {
+  height: 82px;
 }
 
 .page-section--center {
@@ -1216,6 +1224,11 @@ a {
   color: white;
 }
 
+.link--underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .icons {
 	color: #353535;
 }
@@ -1345,6 +1358,10 @@ a {
 
 /*Portfolio*/
 
+.tripple-column__portfolio__linkedin {
+  line-height: 30px;
+}
+
 .tripple-column__portfolio__panel {
   padding-bottom: 10px;
   -ms-flex-preferred-size: 48%;
@@ -1382,7 +1399,7 @@ a {
 }
 
 .tripple-column__portfolio__panel__text__info {
-  margin: .5em 0;
+  margin: .2em 0;
   color: #4a494a;
   font-size: 0.9375rem;
   font-family: 'MinionProRegular';
@@ -1390,6 +1407,13 @@ a {
 
 .tripple-column__portfolio__panel__text__info:first-child {
   margin-top: 0em;
+}
+
+.tripple-column__portfolio__panel__text__link {
+  font-family: 'MinionPro';
+  color: #4a494a;
+  font-size: 0.9375rem;
+  line-height: 20px;
 }
 
 .tripple-column__portfolio__panel__text__paragraph {
@@ -1401,6 +1425,7 @@ a {
   font-size: .75rem;
   font-family: 'MinionProBold';
   color: #4C4C4C;
+  letter-spacing: 1.2px;
 }
 
 .map {
@@ -1560,37 +1585,37 @@ a {
 }
 
 .banner__img--1--1 {
-  background: url(../../assets/images/Forside_abstrakt.jpg) no-repeat center;
+  background: url(../images/Forside_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--2 {
-  background: url(../../assets/images/digitalisering_abstrakt.jpg) no-repeat center;
+  background: url(../images/digitalisering_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--3 {
-  background: url(../../assets/images/rekrutering_abstrakt.jpg) no-repeat center;
+  background: url(../images/rekrutering_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--4 {
-  background: url(../../assets/images/innovasjon_abstrakt.jpg) no-repeat center;
+  background: url(../images/innovasjon_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--5 {
-  background: url(../../assets/images/ledelse_abstrakt.jpg) no-repeat center;
+  background: url(../images/ledelse_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--6 {
-  background: url(../../assets/images/resultatforbedring_abstrakt.jpg) no-repeat center;
+  background: url(../images/resultatforbedring_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--7 {
-  background: url(../../assets/images/styrearbeid_abstrakt.jpg) no-repeat center;
+  background: url(../images/styrearbeid_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -1621,37 +1646,37 @@ a {
 }
 
 .banner__img--2--1 {
-  background: url(../../assets/images/Forside_coness.jpg) no-repeat center;
+  background: url(../images/Forside_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--2 {
-  background: url(../../assets/images/digitalisering_coness.jpg) no-repeat center;
+  background: url(../images/digitalisering_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--3 {
-  background: url(../../assets/images/rekrutering_coness.jpg) no-repeat center;
+  background: url(../images/rekrutering_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--4 {
-  background: url(../../assets/images/innovasjon_coness.jpg) no-repeat center;
+  background: url(../images/innovasjon_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--5 {
-  background: url(../../assets/images/ledelse_coness.jpg) no-repeat center;
+  background: url(../images/ledelse_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--6 {
-  background: url(../../assets/images/resultatforbedring_coness.jpg) no-repeat center;
+  background: url(../images/resultatforbedring_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--7 {
-  background: url(../../assets/images/styrearbeid_coness.jpg) no-repeat center;
+  background: url(../images/styrearbeid_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -1744,4 +1769,33 @@ a {
 
 .mobile-menu__offset {
   padding-right: 50px;
+}
+
+.overlay {
+	display: none;
+	background-color: rgba(0,0,0, .85);
+	max-width: 747px;
+	min-width: 100%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	padding: 20px 20px;
+}
+
+@media (min-width: 820px) {
+
+  .overlay {
+    min-width: 747px;
+    padding: 100px 116px;
+  }
+}
+
+.overlay__text {
+  color: white;
+  font-family: 'MinionProRegular';
+  font-size: .9375rem;
+  line-height: 19px;
+  margin: 8px 0;
 }

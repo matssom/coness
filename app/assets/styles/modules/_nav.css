@@ -1,13 +1,12 @@
 .nav {
 	display: none;
-	position: relative; 
+	position: relative;
 
 	&__button {
 		position: absolute;
 		right: 10px;
 		top: 50%;
 		transform: translateY(-50%);
-		background-color: white;
 
 		@mixin atMedium {
 			display: none;
@@ -35,14 +34,17 @@
 				font-family: 'MyriadWebPro';
 				font-weight: 400;
 				transition: all .2s ease-out;
-				color: #9ca4ab;
 				line-height: $base;
-				color: #bdeff0;
+				color: #788B8B;
 
 				@mixin atLarge {
 					padding: 0 25px;
 				}
 			}
 		}
+	}
+
+	&--active {
+		color: #bdeff0;
 	}
 }

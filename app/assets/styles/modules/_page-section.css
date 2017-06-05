@@ -21,6 +21,10 @@
 			margin: 70px 0;
 		}
 	}
+
+	&--large {
+		height: 82px;
+	}
 }
 
 .page-section--center {

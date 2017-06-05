@@ -10340,10 +10340,28 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// MobileMenu
 (0, _jquery2.default)("#menu-button").click(function () {
-	(0, _jquery2.default)("#mobile-menu").css("display", "block");
-}); // import StickyHeader from './modules/StickyHeader';
+    (0, _jquery2.default)("#mobile-menu").css("display", "block");
+});
+
+// Overlay
+// import StickyHeader from './modules/StickyHeader';
 // import MobileMenu from './modules/MobileMenu';
+
+(0, _jquery2.default)(".overlay-btn").click(function () {
+    var id = (0, _jquery2.default)(this).attr("id");
+    (0, _jquery2.default)("#overlay-" + id).css("display", "block");
+});
+
+(0, _jquery2.default)(document).mouseup(function (e) {
+    var container = (0, _jquery2.default)(".overlay");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+        container.css("display", "none");
+    }
+});
 
 /***/ })
 /******/ ]);
