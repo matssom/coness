@@ -1494,6 +1494,7 @@ a {
   padding: 18px;
   text-align: center;
   width: 85%;
+  font-family: 'MinionProMedium';
 }
 
 @media (min-width: 820px) {

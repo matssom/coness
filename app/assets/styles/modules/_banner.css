@@ -18,6 +18,7 @@
 		padding: 18px;
 		text-align: center;
 		width: 85%;
+		font-family: 'MinionProMedium';
 
 		@mixin atMedium {
 			max-width: 662px;
