@@ -12,7 +12,6 @@
 @import "modules/_nav";
 @import "modules/_page-section";
 @import "modules/_section-title";
-@import "modules/_generic-text-content";
 @import "modules/_section-subtitle";
 @import "modules/_hero-section";
 @import "modules/_btn";
@@ -27,3 +26,5 @@
 @import "modules/_relative";
 @import "modules/_mobile-menu";
 @import "modules/_overlay";
+@import "modules/_italic";
+@import "modules/_dots";

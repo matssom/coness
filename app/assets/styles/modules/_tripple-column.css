@@ -13,6 +13,14 @@
 			padding: 40px;
 		}
 
+		&--blank {
+			background-color: #ffffff;
+
+			@mixin atLarge {
+				background-color: #ffffff;
+			}
+		}
+
 		&__heading {
 			font-size: 1.25rem;
 			margin-bottom: 30px;
@@ -35,7 +43,7 @@
 		&__content {
 			font-size: 0.9375rem;
 			color: #4A494A;
-			font-family: 'MinionPro';
+			font-family: 'MinionProRegular';
 		}
 	}
 
@@ -55,7 +63,8 @@
 	&__portfolio {
 
 		&__linkedin {
-			line-height: 30px;
+			margin-top: 10px;
+			display: block;
 		}
 
 		&__panel {

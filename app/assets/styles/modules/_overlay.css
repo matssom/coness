@@ -3,15 +3,17 @@
 	background-color: rgba($black, .85);
 	max-width: 747px;
 	min-width: 100%;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 82px;
 	padding: 20px 20px;
 
 	@mixin atMedium {
 		min-width: 747px;
 		padding: 100px 116px;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 	}
 
 	&__text {

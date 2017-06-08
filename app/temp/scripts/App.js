@@ -10342,7 +10342,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // MobileMenu
 (0, _jquery2.default)("#menu-button").click(function () {
-    (0, _jquery2.default)("#mobile-menu").css("display", "block");
+	(0, _jquery2.default)("#mobile-menu").css("display", "block");
 });
 
 // Overlay
@@ -10350,17 +10350,34 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // import MobileMenu from './modules/MobileMenu';
 
 (0, _jquery2.default)(".overlay-btn").click(function () {
-    var id = (0, _jquery2.default)(this).attr("id");
-    (0, _jquery2.default)("#overlay-" + id).css("display", "block");
+	var id = (0, _jquery2.default)(this).attr("id");
+	(0, _jquery2.default)("#overlay-" + id).css("display", "block");
+
+	var mobile = (0, _jquery2.default)(".overlay").css("position");
+	var that = this;
+
+	if (mobile == "absolute") {
+		var scroll = (0, _jquery2.default)(window).scrollTop();
+		(0, _jquery2.default)("#overlay-" + id).css("top", scroll + 82);
+	}
 });
 
 (0, _jquery2.default)(document).mouseup(function (e) {
-    var container = (0, _jquery2.default)(".overlay");
+	var container = (0, _jquery2.default)(".overlay");
 
-    // if the target of the click isn't the container nor a descendant of the container
-    if (!container.is(e.target) && container.has(e.target).length === 0) {
-        container.css("display", "none");
-    }
+	// if the target of the click isn't the container nor a descendant of the container
+	if (!container.is(e.target) && container.has(e.target).length === 0) {
+		container.css("display", "none");
+	}
+});
+
+(0, _jquery2.default)(".overlay").click(function () {
+
+	var mobile = (0, _jquery2.default)(this).css("position");
+
+	if (mobile == "absolute") {
+		(0, _jquery2.default)(this).css("display", "none");
+	}
 });
 
 /***/ })

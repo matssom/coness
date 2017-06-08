@@ -7,7 +7,6 @@
 
 	&__text {
 		background-color: rgba($black, .8);
-		padding: 0;
 		position: absolute;
 		max-width: 1000px;
 		width: 100%;
@@ -16,6 +15,8 @@
 		transform: translateX(-50%);
 		display: flex;
 		flex-wrap: wrap;
+		padding-top: 30px;
+		padding-bottom: 30px;
 
 		@mixin atMedium {
 			padding: 10px;
@@ -29,9 +30,14 @@
 		 	margin: 8px;
 		 	display: inline-block;
 		 	flex: 1;
-		 	margin-top: 50px;
-		 	margin-bottom: 50px;
 		 	min-width: 200px;
+		 	margin-bottom: 20px;
+		 	margin-top: 20px;
+
+		 	@mixin atMedium {
+		 		margin-top: 50px;
+		 		margin-bottom: 50px;
+		 	}
 		}
 	}
 }

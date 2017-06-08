@@ -12,6 +12,15 @@ $("#menu-button").click(function () {
 $(".overlay-btn").click(function() {
 	var id = $(this).attr("id");
 	$("#overlay-" + id).css("display","block");
+
+	var mobile = $(".overlay").css("position");
+	var that = this;
+
+	if (mobile == "absolute") {
+		var scroll = $(window).scrollTop();
+		$("#overlay-" + id).css("top", scroll + 82);
+	}
+
 });
 
 $(document).mouseup(function(e) 
@@ -23,4 +32,14 @@ $(document).mouseup(function(e)
     {
         container.css("display","none");
     }
+});
+
+$(".overlay").click(function() {
+
+	var mobile = $(this).css("position");
+
+	if (mobile == "absolute") {
+		$(this).css("display", "none");
+	}
+	
 });

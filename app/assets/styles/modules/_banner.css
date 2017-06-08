@@ -7,7 +7,7 @@
 	}
 
 	@mixin atLarge {
-		max-height: 420px;
+		max-height: 440px;
 	}
 
 	&__heading {
@@ -66,8 +66,8 @@
 		&--1 {
 			overflow: visible;
 			position: relative;
-			max-height: 420px;
-			flex-basis: 40%;
+			max-height: 440px;
+			flex-basis: 37%;
 
 			width: 100%;
 	    	height: 100%;
@@ -78,41 +78,41 @@
 			}
 
 			@mixin atLarge {
-				height: 420px;
+				height: 440px;
 			}
 
 			&--1 {
-				background: url(../images/Forside_abstrakt.jpg) no-repeat center;
+				background: url(../../assets/images/Forside_abstrakt.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--2 {
-				background: url(../images/digitalisering_abstrakt.jpg) no-repeat center;
+				background: url(../../assets/images/digitalisering_abstrakt.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--3 {
-				background: url(../images/rekrutering_abstrakt.jpg) no-repeat center;
+				background: url(../../assets/images/rekrutering_abstrakt.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--4 {
-				background: url(../images/innovasjon_abstrakt.jpg) no-repeat center;
+				background: url(../../assets/images/innovasjon_abstrakt.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--5 {
-				background: url(../images/ledelse_abstrakt.jpg) no-repeat center;
+				background: url(../../assets/images/ledelse_abstrakt.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--6 {
-				background: url(../images/resultatforbedring_abstrakt.jpg) no-repeat center;
+				background: url(../../assets/images/resultatforbedring_abstrakt.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--7 {
-				background: url(../images/styrearbeid_abstrakt.jpg) no-repeat center;
+				background: url(../../assets/images/styrearbeid_abstrakt.jpg) no-repeat center;
 				background-size: cover;
 			}
 		}
@@ -120,8 +120,8 @@
 		&--2 {
 			overflow: visible;
 			position: relative;
-			max-height: 420px;
-			flex-basis: 60%;
+			max-height: 440px;
+			flex-basis: 63%;
 
 			width: 100%;
 	    	height: 100%;
@@ -133,57 +133,43 @@
 			}
 
 			@mixin atLarge {
-				height: 420px;
+				height: 440px;
 			}
 
 			&--1 {
-				background: url(../images/Forside_coness.jpg) no-repeat center;
+				background: url(../../assets/images/Forside_coness.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--2 {
-				background: url(../images/digitalisering_coness.jpg) no-repeat center;
+				background: url(../../assets/images/digitalisering_coness.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--3 {
-				background: url(../images/rekrutering_coness.jpg) no-repeat center;
+				background: url(../../assets/images/rekrutering_coness.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--4 {
-				background: url(../images/innovasjon_coness.jpg) no-repeat center;
+				background: url(../../assets/images/innovasjon_coness.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--5 {
-				background: url(../images/ledelse_coness.jpg) no-repeat center;
+				background: url(../../assets/images/styrearbeid_coness.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--6 {
-				background: url(../images/resultatforbedring_coness.jpg) no-repeat center;
+				background: url(../../assets/images/resultatforbedring_coness.jpg) no-repeat center;
 				background-size: cover;
 			}
 
 			&--7 {
-				background: url(../images/styrearbeid_coness.jpg) no-repeat center;
+				background: url(../../assets/images/ledelse_coness.jpg) no-repeat center;
 				background-size: cover;
 			}
-		}
-	}
-
-	&__arrow {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-
-		&--left {
-			left: 40px;
-		}
-
-		&--right {
-			right: 40px;
 		}
 	}
 }

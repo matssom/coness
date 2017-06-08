@@ -1,0 +1,25 @@
+.dots {
+	width: 107px;
+	height: 30px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	&__dot {
+		height: 12px;
+		width: 12px;
+		background-color: #555551;
+		opacity: .7;
+		display: inline-block;
+		border-radius: 6px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&--active {
+		background-color: #fff;
+		opacity: 1;
+	}
+}
