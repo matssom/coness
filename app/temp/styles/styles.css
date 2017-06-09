@@ -1325,6 +1325,7 @@ a {
   font-size: 0.9375rem;
   color: #4A494A;
   font-family: 'MinionProRegular';
+  line-height: 20px;
 }
 
 .tripple-column--center {
@@ -1386,6 +1387,7 @@ a {
   color: #4a494a;
   font-size: 0.9375rem;
   font-family: 'MinionProRegular';
+  line-height: 20px;
 }
 
 .tripple-column__portfolio__panel__text__info:first-child {
@@ -1400,7 +1402,7 @@ a {
 }
 
 .tripple-column__portfolio__panel__text__paragraph {
-  margin: .5em 0;
+  margin: .4em 0;
   color: #6D6D6D;
 }
 
@@ -1447,7 +1449,7 @@ a {
   color: white;
   text-align: center;
   font-family: 'MinionProRegular';
-  font-size: 1rem;
+  font-size: .9375rem;
   margin: 8px;
   display: inline-block;
   -webkit-box-flex: 1;
@@ -1722,7 +1724,7 @@ a {
 
   .defining-panel__text {
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 0px;
   }
 }
 

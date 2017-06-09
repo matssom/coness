@@ -26,13 +26,14 @@
 		 	color: white;
 		 	text-align: center;
 		 	font-family: 'MinionProRegular';
-		 	font-size: 1rem;
+		 	font-size: .9375rem;
 		 	margin: 8px;
 		 	display: inline-block;
 		 	flex: 1;
 		 	min-width: 200px;
 		 	margin-bottom: 20px;
 		 	margin-top: 20px;
+
 
 		 	@mixin atMedium {
 		 		margin-top: 50px;
