@@ -6,7 +6,7 @@
 	}
 
 	&__panel {
-		padding: 10px;
+		padding: 10px 40px;
 
 		@mixin atMedium {
 			padding: 40px;
