@@ -2,7 +2,7 @@
 	flex-wrap: wrap;
 
 	&__panel {
-		flex-basis: 33.2%;
+		flex-basis: 49.9%;
 		background-color: #E9E9E9;
 		padding: 40px;
 		margin-top: 2px;
@@ -11,6 +11,7 @@
 		@mixin atLarge {
 			background-color: #F7F7F7;
 			padding: 40px;
+			flex-basis: 33.2%;
 		}
 
 		&--blank {

@@ -7,7 +7,7 @@
 		padding: 0;
 
 		@mixin atLarge {
-			padding: 0 18px;
+			padding: 0px;
 		}
 	}
 

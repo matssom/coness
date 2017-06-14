@@ -74,4 +74,12 @@
 	&--3 {
 		flex: 3;
 	}
+
+	&--desktop {
+		
+		@mixin atLarge {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
 }
