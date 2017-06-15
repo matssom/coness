@@ -491,42 +491,42 @@ a {
 
 @font-face {
 	font-family: 'MyriadWebPro';
-	src: url(../../assets/images/fonts/MyriadWebPro.ttf);
+	src: url(../images/fonts/MyriadWebPro.ttf);
 }
 
 /*Minion Pro Semibold*/
 
 @font-face {
 	font-family: 'MinionProSemibold';
-	src: url(../../assets/images/fonts/MinionProSemibold.otf);
+	src: url(../images/fonts/MinionProSemibold.otf);
 }
 
 /*Minion Pro*/
 
 @font-face {
 	font-family: 'MinionPro';
-	src: url(../../assets/images/fonts/MinionPro.otf);
+	src: url(../images/fonts/MinionPro.otf);
 }
 
 /*Minion Pro Regular*/
 
 @font-face {
 	font-family: 'MinionProRegular';
-	src: url(../../assets/images/fonts/MinionProRegular.otf);
+	src: url(../images/fonts/MinionProRegular.otf);
 }
 
 /*Minion Pro Bold*/
 
 @font-face {
 	font-family: 'MinionProBold';
-	src: url(../../assets/images/fonts/MinionProBold.otf);
+	src: url(../images/fonts/MinionProBold.otf);
 }
 
 /*Minion Pro Medium*/
 
 @font-face {
 	font-family: 'MinionProMedium';
-	src: url(../../assets/images/fonts/MinionProMedium.otf);
+	src: url(../images/fonts/MinionProMedium.otf);
 }
 
 /* Do not edit _sprite.css directly!!! It is auto-generated */
@@ -1427,29 +1427,27 @@ a {
   letter-spacing: 1.2px;
 }
 
-.map {
-	-ms-flex-preferred-size: 47%;
-	    flex-basis: 47%;
-}
-
-.map__image {
-  margin-bottom: 50px;
-  width: 100%;
+.interactive-map {
+	position: relative;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 100%;
+	height: 80vh;
 }
 
 @media (min-width: 820px) {
 
-  .map__image {
-    margin-bottom: 100px;
+  .interactive-map {
+    height: 440px;
   }
 }
 
 .map__text {
   background-color: rgba(0,0,0, .8);
-  position: absolute;
   max-width: 1000px;
   width: 100%;
-  top: 30%;
+  bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1461,20 +1459,22 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
   z-index: 500;
+  position: fixed;
 }
 
 @media (min-width: 820px) {
 
   .map__text {
     padding: 10px;
-    top: 30%;
+    bottom: 100px;
+    position: absolute;
   }
 }
 
 @media (min-width: 1090px) {
 
   .map__text {
-    top: 95%;
+    bottom: 100px;
   }
 }
 
@@ -1581,10 +1581,9 @@ a {
 
   .banner__heading {
     max-width: 662px;
-    text-align: left;
-    left: 82px;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    text-align: left;/*left: 82px;*/
+    -webkit-transform: translate(-60%, -50%);
+            transform: translate(-60%, -50%);
   }
 }
 
@@ -1658,37 +1657,37 @@ a {
 }
 
 .banner__img--1--1 {
-  background: url(../../assets/images/Forside_abstrakt.jpg) no-repeat center;
+  background: url(../images/Forside_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--2 {
-  background: url(../../assets/images/digitalisering_abstrakt.jpg) no-repeat center;
+  background: url(../images/digitalisering_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--3 {
-  background: url(../../assets/images/rekrutering_abstrakt.jpg) no-repeat center;
+  background: url(../images/rekrutering_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--4 {
-  background: url(../../assets/images/innovasjon_abstrakt.jpg) no-repeat center;
+  background: url(../images/innovasjon_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--5 {
-  background: url(../../assets/images/ledelse_abstrakt.jpg) no-repeat center;
+  background: url(../images/ledelse_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--6 {
-  background: url(../../assets/images/resultatforbedring_abstrakt.jpg) no-repeat center;
+  background: url(../images/resultatforbedring_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--1--7 {
-  background: url(../../assets/images/styrearbeid_abstrakt.jpg) no-repeat center;
+  background: url(../images/styrearbeid_abstrakt.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -1719,37 +1718,37 @@ a {
 }
 
 .banner__img--2--1 {
-  background: url(../../assets/images/Forside_coness.jpg) no-repeat center;
+  background: url(../images/Forside_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--2 {
-  background: url(../../assets/images/digitalisering_coness.jpg) no-repeat center;
+  background: url(../images/digitalisering_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--3 {
-  background: url(../../assets/images/rekrutering_coness.jpg) no-repeat center;
+  background: url(../images/rekrutering_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--4 {
-  background: url(../../assets/images/innovasjon_coness.jpg) no-repeat center;
+  background: url(../images/innovasjon_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--5 {
-  background: url(../../assets/images/styrearbeid_coness.jpg) no-repeat center;
+  background: url(../images/styrearbeid_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--6 {
-  background: url(../../assets/images/resultatforbedring_coness.jpg) no-repeat center;
+  background: url(../images/resultatforbedring_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner__img--2--7 {
-  background: url(../../assets/images/ledelse_coness.jpg) no-repeat center;
+  background: url(../images/ledelse_coness.jpg) no-repeat center;
   background-size: cover;
 }
 
