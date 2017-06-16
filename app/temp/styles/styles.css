@@ -899,7 +899,7 @@ a {
   .nav {
     margin: 0;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 10px;
     display: block;
   }
 
@@ -913,8 +913,8 @@ a {
 
   .nav__link__item {
     display: inline-block;
-    padding: 0 8px;
-    font-size: 0.8125rem;
+    padding: 0 6px;
+    font-size: .9rem;
     font-family: 'MyriadWebPro';
     font-weight: 400;
     -webkit-transition: all .2s ease-out;
@@ -926,7 +926,7 @@ a {
   @media (min-width: 1090px) {
 
     .nav__link__item {
-      padding: 0 25px;
+      padding: 0 23px;
     }
   }
 }
@@ -1336,7 +1336,7 @@ a {
 }
 
 .tripple-column__panel__content {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: #4A494A;
   font-family: 'MinionProRegular';
   line-height: 20px;
@@ -1433,13 +1433,16 @@ a {
 	-webkit-transform: translateX(-50%);
 	        transform: translateX(-50%);
 	width: 100%;
-	height: 80vh;
+	height: 70vh;
 }
 
 @media (min-width: 820px) {
 
   .interactive-map {
     height: 440px;
+    position: relative;
+    top: 0;
+    bottom: initial;
   }
 }
 
@@ -1447,7 +1450,6 @@ a {
   background-color: rgba(0,0,0, .8);
   max-width: 1000px;
   width: 100%;
-  bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1459,7 +1461,7 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
   z-index: 500;
-  position: fixed;
+  position: relative;
 }
 
 @media (min-width: 820px) {
@@ -1527,7 +1529,7 @@ a {
   color: white;
   text-align: center;
   font-family: 'MinionProRegular';
-  font-size: .9375rem;
+  font-size: 1rem;
   margin: 8px;
   display: inline-block;
   -webkit-box-flex: 1;
@@ -1791,7 +1793,7 @@ a {
 
 .defining-panel__text {
   font-family: 'MinionProRegular';
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 20px;
   max-width: 500px;
   color: #4c4c4c;

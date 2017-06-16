@@ -16,7 +16,7 @@
 	@mixin atMedium {
 		margin: 0;
 		text-align: right;
-		margin-right: 15px;
+		margin-right: 10px;
 		display: block;
 
 		&__link {
@@ -29,8 +29,8 @@
 
 			&__item {
 				display: inline-block;
-				padding: 0 8px;
-				font-size: 0.8125rem;
+				padding: 0 6px;
+				font-size: .9rem;
 				font-family: 'MyriadWebPro';
 				font-weight: 400;
 				transition: all .2s ease-out;
@@ -38,7 +38,7 @@
 				color: #788B8B;
 
 				@mixin atLarge {
-					padding: 0 25px;
+					padding: 0 23px;
 				}
 			}
 		}
