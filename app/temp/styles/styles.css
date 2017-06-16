@@ -1895,7 +1895,7 @@ a {
 .dots__dot {
   height: 12px;
   width: 12px;
-  background-color: #555551;
+  background-color: #afafaf;
   opacity: .7;
   display: inline-block;
   border-radius: 6px;
@@ -1925,6 +1925,6 @@ a {
 }
 
 .dots--active {
-  background-color: #dfdfdf;
+  background-color: #555551;
   opacity: 1;
 }
