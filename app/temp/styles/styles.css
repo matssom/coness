@@ -1883,10 +1883,10 @@ a {
 }
 
 .dots {
-	width: 107px;
+	width: 130px;
 	height: 30px;
 	position: absolute;
-	bottom: 20px;
+	bottom: -50px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	        transform: translateX(-50%);
@@ -1901,11 +1901,30 @@ a {
   border-radius: 6px;
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+@media (min-width: 820px) {
+
+  .dots__dot {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+.dots__arrow {
+  width: 12px;
+  opacity: .7;
+  display: inline-block;
+  border-radius: 6px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-45%);
+          transform: translateY(-45%);
 }
 
 .dots--active {
-  background-color: #fff;
+  background-color: #dfdfdf;
   opacity: 1;
 }
